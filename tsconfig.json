@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+      "rootDir": "src", //コードファイルの配置場所
+      "outDir": "dist", //変換後の出力先フォルダ
+    },
+    "exclude": [
+      "node_modules"
+    ]
+}
