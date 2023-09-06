@@ -7,5 +7,9 @@
   "content_scripts": [{
     "matches": [ "https://a009.sengokuixa.jp/*" ],
     "js": [ "index.js" ]
+  },{
+    "description": "スキル強化",
+    "matches": [ "https://a009.sengokuixa.jp/union/levelup.php*" ],
+    "js": [ "skill-enhance.js" ]
   }]
 }

@@ -4,6 +4,7 @@ module.exports = {
   // 変換するファイルを指定
   entry: {
     index: './src/index.ts',
+    "skill-enhance": "./src/skill-enhance.ts"
   },
 
   // 出力先を指定
